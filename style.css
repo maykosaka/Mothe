@@ -1,0 +1,164 @@
+h1 {
+	/*border: 1px solid yellow;*/
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	display: inline;
+	float: top left;
+}
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: light-300;
+	font-size: 14px;
+	color: black;
+	padding-top: 20;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-style: light-300;
+	color: black;
+}
+#top_menu {
+	border: 1px solid white;
+	/*background-color: rgba(0,0,0,0.2);*/
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-bottom: 1.5px solid gray;
+}
+#headerContent {
+	border: 1px solid white;
+	margin: 0 auto; width: 960px; /* container of top_menu to make full width of screen */
+}
+#header {
+	/*border: 1px solid green;*/
+	width: 200px;
+	float: left;
+}
+#main_nav {
+	border: 1px solid white;
+	font-size: 12px;
+	/*position: absolute;*/
+	text-align:center;
+	float: right;
+	padding-top: 10px;
+	width: 700px;
+}
+#main_nav  ul {
+	border: 1px solid green;
+	list-style-type: none;
+}
+#main_nav  li {
+	border: 1px solid white;
+	display: inline;
+	padding: 20px 30px 0px 30px;
+}
+#press_pics_nav {
+	border: 1px solid white;
+	margin-top: 80px;
+}
+#press_pics_nav li {
+	border: 1px solid white;
+	display: inline;
+}
+#press_pics_nav a img {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 110px;
+	height: 110px;
+	padding: 7px;
+}
+/*#concept {
+	border: 1px solid green;
+	display: inline;
+	padding-top: 80px;
+	font-family: 'Lato', sans-serif;
+	font-style: light-300;
+	font-size: 14px;
+}
+#concept_pics_nav {
+	border: 1px solid blue;
+	margin-top: 80px;
+}
+#concept_pics_nav p {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}*/
+#coll_nav {
+	/*border: 1px solid blue;*/
+	margin-top: 30px;
+	font-size: 10px;
+	position: absolute;
+}
+#coll_nav li {
+	/*border: 1px solid red;*/
+	display: block;
+	height: 19px;
+}
+#slider1_title p{
+	border: 1px solid blue;
+	margin-top: 40px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    text-align: center;
+}
+#slider1_container {
+	/*border: 1px solid blue;*/
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*#footer {
+	float: bottom left;
+	font-family: arial, helvetica, "Times New Roman", sans-serif;
+	font-size: 10px;
+}*/
+p {
+	font-family: 'Lato', sans-serif;
+	font-style: light-300;
+	font-size: 14px;
+	color: black;
+	line-height: 21px; /* sets ht of lines w/out adjusting font size. can be a number (which is a multiple, so "2" is 2x font size), a length, a percentage, or normal */
+	/*text-align: left; /* left, right, center, or justify */
+}
+img.displayed { /* centers splash page image left & rt */
+	border-style: none;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
+img.bio {
+	position: absolute;
+	padding-top: 80px;
+	padding-left: 30px;
+}
+#about_content {
+	margin-top: 80px;
+	margin-left: 400px;
+	margin-right: 50px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#link-container { /* contact link */
+	text-align: center;
+}
+#link { /* contact link */
+	background: white;
+	color: black;
+	display: inline-block;
+	padding: 100px;
+	padding-top: 250px;
+}
+a:active {
+	color: red;
+}
+a:hover {
+	color: gray;
+}
